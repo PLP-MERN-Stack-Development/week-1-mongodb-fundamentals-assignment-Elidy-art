@@ -3,6 +3,72 @@
 
 This assignment focuses on learning MongoDB fundamentals including setup, CRUD operations, advanced queries, aggregation pipelines, and indexing.
 
+
+## How to run my scripts
+# 📚 PLP Bookstore MongoDB Project
+
+This project demonstrates basic and advanced MongoDB operations using a sample `books` collection for a fictional bookstore database.
+
+## 🛠️ Project Setup
+
+### Option 1: Run Locally with MongoDB Community Edition
+
+1. Make sure MongoDB is installed and running on your local machine.
+2. Open a terminal and navigate to the folder containing `insert_books.js`.
+3. Run the following command to populate the database:
+   ```bash
+   node insert_books.js
+
+Option 2: Use MongoDB Atlas (Cloud)
+Set up a free cluster at MongoDB Atlas.
+
+Replace the uri in insert_books.js with your cluster connection string.
+
+Run the script using:
+
+node insert_books.js
+
+📂 Files Included
+insert_books.js – Script to insert sample book data into the books collection.
+
+queries.js – Contains all the MongoDB queries used in this project:
+
+CRUD operations
+
+Advanced filtering, projection, sorting, pagination
+
+Aggregation pipelines
+
+Indexing and performance analysis
+
+README.md – This file (how to run and understand the project).
+
+screenshot.png – MongoDB Compass or Atlas screenshot showing the populated collection.
+
+💻 How to Run Queries
+Start the Mongo shell (mongosh):
+mongosh
+
+Switch to the correct database:
+use plp_bookstore
+
+Copy and paste the content of queries.js into the shell or run them one by one as needed.
+
+❗️Note: Comments in queries.js will be ignored by mongosh.
+
+✅ Expected Outcome
+A working MongoDB database named plp_bookstore.
+
+A populated collection named books.
+
+Functional MongoDB queries demonstrating CRUD, advanced operations, aggregation, and indexing.
+
+Clean code and organized scripts ready for grading.
+
+👩🏽‍💻 Author
+Elidy Muriithi 💖
+MongoDB Assignment for PLP
+
 ## Assignment Overview
 
 You will:
